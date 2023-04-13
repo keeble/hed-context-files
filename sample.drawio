@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T11:48:21.625Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="LohlUbGSBocgBK1JkSS8" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T11:55:22.074Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="tVvh_aG9aLHwNyYIDoiF" version="21.1.7" type="github">
   <diagram name="Page-1" id="lhWWaMpEu8fQ6LXQEqeM">
     <mxGraphModel dx="1658" dy="1011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,7 +93,7 @@
             <mxPoint x="750" y="366" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IkbrlV8vESrTVHvmI2JB-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IkbrlV8vESrTVHvmI2JB-17" target="IkbrlV8vESrTVHvmI2JB-42" edge="1">
+        <mxCell id="PfKu16TSMddH5ulJ7kb4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IkbrlV8vESrTVHvmI2JB-17" target="PfKu16TSMddH5ulJ7kb4-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IkbrlV8vESrTVHvmI2JB-17" value="pyfai" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -101,7 +101,7 @@
         </mxCell>
         <mxCell id="IkbrlV8vESrTVHvmI2JB-30" value="" style="shape=link;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="750" y="380" as="sourcePoint" />
+            <mxPoint x="750" y="450" as="sourcePoint" />
             <mxPoint x="750" y="10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -140,20 +140,54 @@
         <mxCell id="IkbrlV8vESrTVHvmI2JB-38" value="mask" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="25" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IkbrlV8vESrTVHvmI2JB-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IkbrlV8vESrTVHvmI2JB-42" target="IkbrlV8vESrTVHvmI2JB-47" edge="1">
+        <mxCell id="PfKu16TSMddH5ulJ7kb4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IkbrlV8vESrTVHvmI2JB-44" target="PfKu16TSMddH5ulJ7kb4-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IkbrlV8vESrTVHvmI2JB-42" value="associate with sample_id" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IkbrlV8vESrTVHvmI2JB-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IkbrlV8vESrTVHvmI2JB-44" target="IkbrlV8vESrTVHvmI2JB-42" edge="1">
+        <mxCell id="PfKu16TSMddH5ulJ7kb4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IkbrlV8vESrTVHvmI2JB-44" target="PfKu16TSMddH5ulJ7kb4-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IkbrlV8vESrTVHvmI2JB-44" value="sample_id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="10" y="435" width="80" height="30" as="geometry" />
+          <mxGeometry x="10" y="415" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IkbrlV8vESrTVHvmI2JB-47" value="" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="510" y="530" width="60" height="60" as="geometry" />
+          <mxGeometry x="163" y="590" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PfKu16TSMddH5ulJ7kb4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PfKu16TSMddH5ulJ7kb4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PfKu16TSMddH5ulJ7kb4-1" value="PDFgetX3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="404" width="70" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="PfKu16TSMddH5ulJ7kb4-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PfKu16TSMddH5ulJ7kb4-2" target="PfKu16TSMddH5ulJ7kb4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PfKu16TSMddH5ulJ7kb4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;" edge="1" parent="1" source="PfKu16TSMddH5ulJ7kb4-2" target="IkbrlV8vESrTVHvmI2JB-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PfKu16TSMddH5ulJ7kb4-2" value="find out substrate sample_id for this sample_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="133" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PfKu16TSMddH5ulJ7kb4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PfKu16TSMddH5ulJ7kb4-5" target="PfKu16TSMddH5ulJ7kb4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PfKu16TSMddH5ulJ7kb4-5" value="get pyfai processed result from substrate sample_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PfKu16TSMddH5ulJ7kb4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PfKu16TSMddH5ulJ7kb4-9" target="PfKu16TSMddH5ulJ7kb4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PfKu16TSMddH5ulJ7kb4-9" value="find out chemical_formula for this sample_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PfKu16TSMddH5ulJ7kb4-16" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="590" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PfKu16TSMddH5ulJ7kb4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;" edge="1" parent="1" target="PfKu16TSMddH5ulJ7kb4-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="540" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
