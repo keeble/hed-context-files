@@ -18,4 +18,4 @@ The less simple data collection, in which we need to find out what sample this i
 - where the db will be hosted
 - do we just hard-code the pyfai poni file?
 - pyfai would be much more efficient if the integrator hangs around...
-- averaging / summing
+- reducing / averaging / summing
